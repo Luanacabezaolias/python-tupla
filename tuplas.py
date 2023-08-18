@@ -65,6 +65,12 @@ list.sort()
 tupla = tuple(lista)
 print(tupla)
 
+# cópia de lista ou de tupla 
+lista = [1, 2, 3]
+lista2 = lista.copy()     # lista2 = lista + []
+lista2.append(100)
+print(lista)
+print(lista2)
 
 
 
